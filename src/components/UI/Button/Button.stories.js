@@ -5,6 +5,6 @@ import { action } from '@storybook/addon-actions';
 
 import Button from './Button'
 
-storiesOf('login_button', module)
-  .add('default', () => <Button onChange={action('changed')} />)
-  .add('disabled', () => <Button disabled />)
+storiesOf('Buttons', module)
+  .add('login', () => <Button onChange={action('changed')} />)
+  .add('logout', () => <Button disabled />)

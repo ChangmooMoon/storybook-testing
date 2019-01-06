@@ -5,7 +5,7 @@ import { action } from '@storybook/addon-actions';
 
 import Input from './Input'
 
-storiesOf('login_Input', module)
-  .add('default', () => <Input onChange={action('changed')} />)
-  .add('disabled', () => <Input disabled />)
+storiesOf('Input', module)
+  .add('login', () => <Input onChange={action('changed')} />)
+  .add('register_form', () => <Input disabled />)
  
