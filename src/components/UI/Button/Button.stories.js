@@ -6,5 +6,5 @@ import { action } from '@storybook/addon-actions';
 import Button from './Button'
 
 storiesOf('Buttons', module)
-  .add('login', () => <Button onChange={action('changed')} />)
-  .add('logout', () => <Button disabled />)
+  .add('activate', () => <Button onClick={action('changed')} />)
+  .add('deactivate', () => <Button disabled />)
